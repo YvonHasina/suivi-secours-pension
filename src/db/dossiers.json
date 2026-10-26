@@ -1,0 +1,359 @@
+[
+  {
+    "_id": "dos-1",
+    "numeroDossier": "SEC-2026-0001",
+    "dateArrivee": "2026-01-20",
+    "statut": "RECEPTION_EN_COURS",
+    "montantSecours": 500000,
+    "defunt": {
+      "im": "345.892",
+      "nom": "RANDRIANASOLO",
+      "prenoms": "Jean Baptiste",
+      "statutActivite": "ACTIVITE",
+      "typeAgentActivite": "FONCTIONNAIRE",
+      "dateDeces": "2026-01-14",
+      "lieuDeces": "HJRA Antananarivo",
+      "ministereInstitution": "Ministère de l’Économie et des Finances",
+      "dernierGrade": "Administrateur Civil Classe Exceptionnelle",
+      "corpsAppartenance": "Administrateurs Civils",
+      "salaireDeBase": 41667
+    },
+    "demandeur": {
+      "nom": "RAKOTOMALALA",
+      "prenoms": "Voahirana Hanta",
+      "lienParente": "VEUF_VEUVE",
+      "cin": "101 245 890 123",
+      "dateDelivranceCin": "2015-06-20",
+      "lieuDelivranceCin": "Antananarivo Renivohitra",
+      "adresse": "Lot IVB 42 Manjakandriana, Antananarivo",
+      "telephone": "+261 34 12 345 67"
+    },
+    "enfants": [],
+    "pieces": [
+      {
+        "codePiece": "DEMANDE_CHEF_SERVICE",
+        "intitule": "Demande adressée au Chef de Service des Pensions",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "ACTE_DECES",
+        "intitule": "Acte de décès certifié conforme",
+        "statut": "CONFORME",
+        "remarque": "Acte certifié conforme par le Firaisana 1er Arrondissement."
+      },
+      {
+        "codePiece": "ACTE_MARIAGE",
+        "intitule": "Acte de mariage (ou livret de famille)",
+        "statut": "NON_FOURNIE"
+      }
+    ],
+    "observations": "Demande déposée à l’accueil. Pièces en cours de rassemblement par la veuve.",
+    "createdAt": "2026-01-20T08:15:00.000Z",
+    "updatedAt": "2026-01-22T08:30:00.000Z"
+  },
+  {
+    "_id": "dos-2",
+    "numeroDossier": "SEC-2026-0002",
+    "dateArrivee": "2026-01-22",
+    "dateEnvoiCf": "2026-02-02 à 14:20",
+    "statut": "TRANSMIS_CF",
+    "montantSecours": 500000,
+    "defunt": {
+      "im": "112.450",
+      "nom": "RAJAONARISON",
+      "prenoms": "Fidèle",
+      "statutActivite": "RETRAITE_PENSIONNE",
+      "dateDeces": "2026-01-05",
+      "lieuDeces": "Antsirabe",
+      "ministereInstitution": "Ministère de l’Éducation Nationale",
+      "dernierGrade": "Professeur Certifié retraité",
+      "numeroPension": "PEN-RET-89452"
+    },
+    "demandeur": {
+      "nom": "ANDRIANIRINA",
+      "prenoms": "Lalao Paul",
+      "lienParente": "TUTEUR_ENFANT_MINEUR",
+      "cin": "102 984 123 001",
+      "dateDelivranceCin": "2018-09-12",
+      "lieuDelivranceCin": "Antsirabe I",
+      "adresse": "Lot 12/B Antsenakely, Antsirabe",
+      "telephone": "+261 33 09 876 54"
+    },
+    "enfants": [
+      {
+        "id": "enf-1",
+        "nom": "RAJAONARISON",
+        "prenoms": "Mialy Soafara",
+        "dateNaissance": "2012-04-18",
+        "estMineur": true,
+        "estHandicape": false,
+        "numeroLit": 1
+      },
+      {
+        "id": "enf-2",
+        "nom": "RAJAONARISON",
+        "prenoms": "Tojo Haja",
+        "dateNaissance": "2015-08-25",
+        "estMineur": true,
+        "estHandicape": false,
+        "numeroLit": 1
+      }
+    ],
+    "pieces": [
+      {
+        "codePiece": "DEMANDE_CHEF_SERVICE",
+        "intitule": "Demande tuteur légal",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "ACTE_NOTORIETE_TUTELLE",
+        "intitule": "Acte de notoriété ou jugement de tutelle",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "ACTE_DECES",
+        "intitule": "Acte de décès du pensionné",
+        "statut": "CONFORME"
+      }
+    ],
+    "observations": "Étude achevée avec conformité intégrale. Transmis pour visa CF.",
+    "createdAt": "2026-01-22T10:00:00.000Z",
+    "updatedAt": "2026-02-02T14:20:00.000Z"
+  },
+  {
+    "_id": "dos-3",
+    "numeroDossier": "SEC-2026-0003",
+    "dateArrivee": "2025-12-28",
+    "dateEnvoiCf": "2026-01-10",
+    "numDecision": "DEC-CF-2026/0418",
+    "dateMandatement": "2026-01-28",
+    "numMandat": "MANDAT-TP-2026/00889",
+    "statut": "MANDATE",
+    "montantSecours": 500000,
+    "defunt": {
+      "im": "450.912",
+      "nom": "RASOANANDRASANA",
+      "prenoms": "Chantal Juliette",
+      "statutActivite": "ACTIVITE",
+      "typeAgentActivite": "FONCTIONNAIRE",
+      "dateDeces": "2025-12-10",
+      "lieuDeces": "Toamasina",
+      "ministereInstitution": "Ministère de la Santé Publique",
+      "dernierGrade": "Sage-Femme Principale",
+      "corpsAppartenance": "Corps des Paramédicaux",
+      "salaireDeBase": 41667
+    },
+    "demandeur": {
+      "nom": "RAKOTONDRAZAKA",
+      "prenoms": "Michel",
+      "lienParente": "CELIBATAIRE_AVEC_MINEUR",
+      "cin": "301 556 789 012",
+      "dateDelivranceCin": "2016-03-14",
+      "lieuDelivranceCin": "Toamasina",
+      "adresse": "Tanambao V, Toamasina",
+      "telephone": "+261 32 40 500 11"
+    },
+    "enfants": [
+      {
+        "id": "enf-3",
+        "nom": "RAKOTONDRAZAKA",
+        "prenoms": "Mirana",
+        "dateNaissance": "2014-06-11",
+        "estMineur": true,
+        "estHandicape": false,
+        "numeroLit": 1
+      }
+    ],
+    "pieces": [
+      {
+        "codePiece": "DEMANDE_CHEF_SERVICE",
+        "intitule": "Demande de secours",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "ACTE_DECES",
+        "intitule": "Acte de décès certifié",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "ACTE_RECONNAISSANCE",
+        "intitule": "Acte de reconnaissance d'enfant",
+        "statut": "CONFORME"
+      }
+    ],
+    "observations": "Secours liquidé et mandaté au Trésor Toamasina.",
+    "createdAt": "2025-12-28T09:00:00.000Z",
+    "updatedAt": "2026-01-28T16:00:00.000Z"
+  },
+  {
+    "_id": "dos-4",
+    "numeroDossier": "SEC-2026-0004",
+    "dateArrivee": "2026-01-15",
+    "dateEnvoiCf": "2026-01-25 à 10:00",
+    "dateRetourCf": "2026-01-28 à 15:30",
+    "motifRetourCf": "Non-concordance de patronyme entre acte de mariage et certificat de non-séparation de corps (Firaisana). Dossier retourné pour complément d’étude.",
+    "statut": "RETOUR_CF",
+    "montantSecours": 500000,
+    "defunt": {
+      "im": "289.104",
+      "nom": "ANDRIAMIHAJA",
+      "prenoms": "Gaston",
+      "statutActivite": "RETRAITE_PENSIONNE",
+      "dateDeces": "2026-01-02",
+      "lieuDeces": "Fianarantsoa",
+      "ministereInstitution": "Ministère de la Justice",
+      "numeroPension": "PEN-FIA-4401"
+    },
+    "demandeur": {
+      "nom": "RAVAO",
+      "prenoms": "Elisabeth",
+      "lienParente": "VEUF_VEUVE",
+      "cin": "201 889 004 551",
+      "dateDelivranceCin": "2014-11-04",
+      "lieuDelivranceCin": "Fianarantsoa",
+      "adresse": "Tambohobe, Fianarantsoa",
+      "telephone": "+261 34 88 123 99"
+    },
+    "enfants": [],
+    "pieces": [
+      {
+        "codePiece": "ACTE_MARIAGE",
+        "intitule": "Acte de mariage",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "CERTIF_NON_SEPARATION_CORPS",
+        "intitule": "Certificat de non-séparation de corps",
+        "statut": "NON_CONFORME",
+        "remarque": "Désaccord patronymique entre acte de mariage et certificat Firaisana."
+      }
+    ],
+    "observations": "Dossier revenu du Contrôle Financier. En attente de rectification par l’agent avant renvoi.",
+    "createdAt": "2026-01-15T11:20:00.000Z",
+    "updatedAt": "2026-01-28T15:30:00.000Z"
+  },
+  {
+    "_id": "dos-5",
+    "numeroDossier": "SEC-2026-0005",
+    "dateArrivee": "2026-02-05",
+    "dateEnvoiCf": "2026-02-07 à 10:15",
+    "dateVisaCf": "2026-02-12 à 11:00",
+    "numDecision": "DEC-CF-2026/0488",
+    "dateEngagement": "2026-02-15 à 14:30",
+    "refEngagement": "ENG-2026/0074",
+    "statut": "ENGAGE",
+    "montantSecours": 500000,
+    "situationComplexe": "DEUX_PARENTS_DECES",
+    "defunt": {
+      "im": "512.780",
+      "nom": "RABEMANANJARA",
+      "prenoms": "Heritiana",
+      "statutActivite": "ACTIVITE",
+      "typeAgentActivite": "EFA_ELD",
+      "dateDeces": "2026-01-28",
+      "lieuDeces": "Mahajanga",
+      "ministereInstitution": "Ministère des Travaux Publics",
+      "dernierGrade": "Agent Technique EFA",
+      "salaireDeBase": 166667
+    },
+    "demandeur": {
+      "nom": "RAFARALAHY",
+      "prenoms": "Jean Pierre",
+      "lienParente": "TUTEUR_ENFANT_MINEUR",
+      "cin": "401 223 900 112",
+      "adresse": "Mangarivotra, Mahajanga",
+      "telephone": "+261 33 11 222 33"
+    },
+    "enfants": [
+      {
+        "id": "enf-5a",
+        "nom": "RABEMANANJARA",
+        "prenoms": "Finaritra",
+        "dateNaissance": "2011-09-02",
+        "estMineur": true,
+        "estHandicape": false,
+        "numeroLit": 1
+      },
+      {
+        "id": "enf-5b",
+        "nom": "RABEMANANJARA",
+        "prenoms": "Toky",
+        "dateNaissance": "2016-12-14",
+        "estMineur": true,
+        "estHandicape": false,
+        "numeroLit": 1
+      }
+    ],
+    "pieces": [
+      {
+        "codePiece": "ACTES_DECES_CONJOINTS",
+        "intitule": "Actes de décès des deux conjoints",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "JUGEMENT_TUTELLE",
+        "intitule": "Jugement rendu par le Tribunal",
+        "statut": "CONFORME"
+      }
+    ],
+    "observations": "Dossier visé par le CF et engagé par le Comptable. En attente de mandatement.",
+    "createdAt": "2026-02-05T09:30:00.000Z",
+    "updatedAt": "2026-02-15T14:30:00.000Z"
+  },
+  {
+    "_id": "dos-6",
+    "numeroDossier": "SEC-2026-0006",
+    "dateArrivee": "2026-02-08",
+    "dateEnvoiCf": "2026-02-10 à 09:15",
+    "dateVisaCf": "2026-02-12 à 16:20",
+    "numDecision": "DEC-CF-2026/0540",
+    "statut": "VALIDE_CF",
+    "montantSecours": 600000,
+    "defunt": {
+      "im": "098.312",
+      "nom": "RAMANANTSOA",
+      "prenoms": "Christian",
+      "statutActivite": "RETRAITE_PENSIONNE",
+      "dateDeces": "2026-01-18",
+      "lieuDeces": "Antananarivo",
+      "ministereInstitution": "Ministère de l’Agriculture et de l’Élevage",
+      "dernierGrade": "Contrôleur d’Élevage retraité",
+      "numeroPension": "PEN-RET-41209"
+    },
+    "demandeur": {
+      "nom": "RAVELOARISOA",
+      "prenoms": "Georgette",
+      "lienParente": "VEUF_VEUVE",
+      "cin": "101 002 984 556",
+      "adresse": "Lot IIK 19 Andravoahangy, Antananarivo",
+      "telephone": "+261 34 01 999 88"
+    },
+    "enfants": [
+      {
+        "id": "enf-6",
+        "nom": "RAMANANTSOA",
+        "prenoms": "Mamy Henintsoa",
+        "dateNaissance": "1998-03-10",
+        "estMineur": false,
+        "estHandicape": true,
+        "certificatMedicalRef": "Certificat CMA N° 102/SANTE/2026",
+        "numeroLit": 1
+      }
+    ],
+    "pieces": [
+      {
+        "codePiece": "ACTE_MARIAGE",
+        "intitule": "Acte de mariage",
+        "statut": "CONFORME"
+      },
+      {
+        "codePiece": "CERTIFICAT_MEDICAL_HANDICAP",
+        "intitule": "Certificat médical d'inaptitude / handicap",
+        "statut": "CONFORME"
+      }
+    ],
+    "observations": "Visa CF obtenu. Prise en compte de l’enfant majeur avec handicap avéré.",
+    "createdAt": "2026-02-08T10:45:00.000Z",
+    "updatedAt": "2026-02-12T16:20:00.000Z"
+  }
+]

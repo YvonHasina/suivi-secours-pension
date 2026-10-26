@@ -1,0 +1,57 @@
+[
+  {
+    "_id": "log-1",
+    "dossierId": "dos-3",
+    "dossierNumero": "SEC-2026-0003",
+    "userRole": "AGENT",
+    "userNom": "Rabe Andrianaivo",
+    "userEmail": "agent@tresor.mg",
+    "action": "MANDATEMENT_PAIEMENT",
+    "details": "Mandatement validé sous le numéro MANDAT-TP-2026/00889 au Trésor Toamasina.",
+    "timestamp": "2026-01-28T16:00:00.000Z"
+  },
+  {
+    "_id": "log-2",
+    "dossierId": "dos-3",
+    "dossierNumero": "SEC-2026-0003",
+    "userRole": "ADMIN",
+    "userNom": "Randria Directeur",
+    "userEmail": "admin@tresor.mg",
+    "action": "VISA_CF_ACCORDE",
+    "details": "Suivi du circuit : validation et visa enregistré.",
+    "timestamp": "2026-01-20T11:15:00.000Z"
+  },
+  {
+    "_id": "log-3",
+    "dossierId": "dos-4",
+    "dossierNumero": "SEC-2026-0004",
+    "userRole": "AGENT",
+    "userNom": "Rabe Andrianaivo",
+    "userEmail": "agent@tresor.mg",
+    "action": "REJET_CONTROLE_FINANCIER",
+    "details": "Complément requis : Non-concordance de patronyme entre acte de mariage et pièces.",
+    "timestamp": "2026-01-26T15:45:00.000Z"
+  },
+  {
+    "_id": "log-4",
+    "dossierId": "dos-2",
+    "dossierNumero": "SEC-2026-0002",
+    "userRole": "AGENT",
+    "userNom": "Rabe Andrianaivo",
+    "userEmail": "agent@tresor.mg",
+    "action": "TRANSMISSION_CF",
+    "details": "Dossier complet (4/4 pièces conformes). Transmis pour visa du Contrôle Financier.",
+    "timestamp": "2026-02-02T14:20:00.000Z"
+  },
+  {
+    "_id": "log-5",
+    "dossierId": "dos-1",
+    "dossierNumero": "SEC-2026-0001",
+    "userRole": "AGENT",
+    "userNom": "Rabe Andrianaivo",
+    "userEmail": "agent@tresor.mg",
+    "action": "CREATION_DOSSIER",
+    "details": "Enregistrement initial du dossier pour l’IM 345.892 (RANDRIANASOLO Jean Baptiste).",
+    "timestamp": "2026-01-20T08:15:00.000Z"
+  }
+]

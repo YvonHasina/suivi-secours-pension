@@ -1,0 +1,6 @@
+{
+  "name": "Suivi Secours aux Décès sur Pension",
+  "description": "Système de contrôle des pièces justificatives et workflow d'instruction des secours aux décès sur pension.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

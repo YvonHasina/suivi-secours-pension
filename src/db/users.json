@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "usr-1",
+    "id": 1,
+    "email": "agent@tresor.mg",
+    "nomComplet": "Rabe Andrianaivo",
+    "role": "AGENT",
+    "poste": "Agent Chargé d’Étude et Mandatement",
+    "departement": "Direction de la Solde et des Pensions",
+    "matricule": "IM-458921",
+    "telephone": "+261 34 11 222 33",
+    "partageDossiers": true,
+    "createdAt": "2025-01-10T08:00:00.000Z",
+    "lastLogin": "2026-09-21T08:30:00.000Z"
+  },
+  {
+    "_id": "usr-2",
+    "id": 2,
+    "email": "admin@tresor.mg",
+    "nomComplet": "Randria Directeur",
+    "role": "ADMIN",
+    "poste": "Administrateur / Suivi du circuit",
+    "departement": "Direction Générale",
+    "matricule": "IM-102938",
+    "telephone": "+261 34 44 555 66",
+    "partageDossiers": true,
+    "createdAt": "2025-01-15T08:00:00.000Z",
+    "lastLogin": "2026-09-22T09:00:00.000Z"
+  }
+]
